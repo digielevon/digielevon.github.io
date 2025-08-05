@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Digielevon - Digital Marketing Expert</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Roboto:wght@400;700&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+      clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+    }
+
+    header h1 {
+      font-family: 'Cairo', sans-serif;
+      font-size: 3em;
+      margin: 0;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+
+    .about, .services, .contact {
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+
+    .section-title {
+      font-family: 'Cairo', sans-serif;
+      font-size: 2em;
+      border-left: 5px solid #2c5364;
+      padding-left: 10px;
+      margin-bottom: 20px;
+    }
+
+    .about p, .services p {
+      line-height: 1.6;
+    }
+
+    .services ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .services li {
+      background: white;
+      margin-bottom: 15px;
+      padding: 15px;
+      border-left: 5px solid #2c5364;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .services li:hover {
+      transform: translateX(10px);
+    }
+
+    .contact {
+      text-align: center;
+      background: #203a43;
+      color: white;
+      padding: 40px 20px;
+      border-radius: 15px;
+    }
+
+    .contact a {
+      color: #f4f4f4;
+      text-decoration: none;
+      font-size: 1.2em;
+      display: inline-block;
+      margin-top: 15px;
+      transition: color 0.3s;
+    }
+
+    .contact a:hover {
+      color: #ffd700;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      padding: 20px;
+      color: #666;
+    }
+
+    .pattern {
+      background-image: url('https://www.transparenttextures.com/patterns/asfalt-light.png');
+      background-repeat: repeat;
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .animated {
+      animation: fadeInUp 1s ease forwards;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1 class="animated">Digielevon</h1>
+    <p class="animated" style="animation-delay:0.5s;">Digital Marketing Expert | Islamic Scholar | Graphic Designer</p>
+  </header>
+
+  <section class="about pattern">
+    <h2 class="section-title">About Me</h2>
+    <p>
+      I am a passionate <strong>Digital Marketing Strategist</strong> based in Malappuram, leading the <strong>Digielevon Digital Marketing Agency</strong>. With expertise in SEO, Branding, and Online Ads, I also hold deep knowledge as an <strong>Islamic Scholar</strong>. My journey combines creativity as a <strong>Graphic Designer</strong> and strategic digital growth to elevate brands globally.
+    </p>
+  </section>
+
+  <section class="services">
+    <h2 class="section-title">Services</h2>
+    <ul>
+      <li>🔹 Digital Marketing Strategy & Consulting</li>
+      <li>🔹 SEO Optimization & Local SEO Expert in Malappuram</li>
+      <li>🔹 Social Media Management & Advertising</li>
+      <li>🔹 Professional Graphic Designing & Branding</li>
+      <li>🔹 Islamic Content Creation & Educational Media</li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <p>📞 +91 7510477475</p>
+    <a href="https://www.instagram.com/sinn7an?igsh=Mzl5MGFhem1mY2g1" target="_blank">Follow on Instagram</a>
+  </section>
+
+  <footer>
+    © 2025 Digielevon Digital Marketing Agency. All rights reserved.
+  </footer>
+
+  <script>
+    // Smooth Animation on Load
+    document.addEventListener('DOMContentLoaded', () => {
+      const animatedElements = document.querySelectorAll('.animated');
+      animatedElements.forEach((el, index) => {
+        el.style.animationDelay = `${index * 0.3}s`;
+        el.classList.add('fadeInUp');
+      });
+    });
+  </script>
+
+</body>
+</html>
